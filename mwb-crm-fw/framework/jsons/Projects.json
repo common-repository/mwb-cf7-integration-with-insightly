@@ -1,0 +1,89 @@
+{
+	"PROJECT_NAME":{
+		"label":"Project Name",
+		"type":"text",
+		"options":[],
+		"required":true
+	},
+	"STATUS":{
+		"label":"Status",
+		"type":"text",
+		"options":["COMPLETED", "DEFERRED", "IN PROGRESS", "NOT STARTED", "WAITING"],
+		"required":true
+	},
+	"PROJECT_DETAILS":{
+		"label":"PROJECT DETAILS",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"STARTED_DATE":{
+		"label":"STARTED DATE",
+		"type":"date",
+		"options":[],
+		"required":false
+	},
+	"COMPLETED_DATE":{
+		"label":"COMPLETED DATE",
+		"type":"date",
+		"options":[],
+		"required":false
+	},
+	"OPPORTUNITY_ID":{
+		"label":"OPPORTUNITY ID",
+		"type":"lookup",
+		"options":[],
+		"required":false
+	},
+	"PIPELINE_ID":{
+		"label":"PIPELINE ID",
+		"type":"lookup",
+		"options":[],
+		"required":false
+	},
+	"STAGE_ID":{
+		"label":"PIPELINE ID",
+		"type":"lookup",
+		"options":[],
+		"required":false
+	},
+	"IMAGE_URL":{
+		"label":"IMAGE URL",
+		"type":"url",
+		"options":[],
+		"required":false
+	},
+	"VISIBLE_TO":{
+		"label":"VISIBLE TO",
+		"type":"fixed",
+		"options":["EVERYONE"],
+		"required":false
+	},
+	"OWNER_USER_ID" :{
+		"label":"OWNER USER ID",
+		"type":"lookup",
+		"use_users_mapping":true,
+		"options":[],
+		"required":false	
+	},
+	"CREATED_USER_ID" :{
+		"label":"CREATED USER ID",
+		"type":"lookup",
+		"use_users_mapping":true,
+		"options":[],
+		"required":false	
+	},
+	"RESPONSIBLE_USER_ID" :{
+		"label":"RESPONSIBLE USER ID",
+		"use_users_mapping":true,
+		"type":"lookup",
+		"options":[],
+		"required":false	
+	},
+	"VISIBLE_TEAM_ID" :{
+		"label":"VISIBLE TEAM ID",
+		"type":"lookup",
+		"options":[],
+		"required":false	
+	}
+}

@@ -1,0 +1,94 @@
+{
+	"COMPLETED":{
+	   "label":"Completed",
+	   "type":"bool",
+	   "options":[ "true", "false" ],
+	   "required":true
+	},
+	"TITLE":{
+		"label":"Title",
+		"type":"text",
+		"options":[],
+		"required":true
+	},
+	"STATUS":{
+		"label":"Status",
+		"type":"text",
+		"options":["COMPLETED","DEFERRED","IN PROGRESS","NOT STARTED","WAITING"],
+		"required":true
+	},
+	"OWNER_USER_ID": {
+		"label":"OWNER USER ID",
+		"type":"lookup",
+		"options":[],
+		"use_users_mapping":true,
+		"required":false
+	 },
+	"DETAILS":{
+		"label":"Details",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"DUE_DATE":{
+		"label":"DUE DATE",
+		"type":"date",
+		"options":[],
+		"required":false
+	},
+	"PRIORITY":{
+		"label":"PRIORITY",
+		"type":"fixed",
+		"options":[ "LOW", "MEDIUM", "HIGH" ],
+		"required":false
+	},
+	"PERCENT_COMPLETE":{
+		"label":"PERCENT COMPLETE",
+		"type":"numeric",
+		"options":[],
+		"required":false
+	},
+	"START_DATE":{
+		"label":"START DATE",
+		"type":"date",
+		"options":[],
+		"required":false
+	},
+	"MILESTONE_ID":{
+		"label":"MILESTONE ID",
+		"type":"numeric",
+		"options":[],
+		"required":false
+	},
+	"PUBLICLY_VISIBLE":{
+		"label":"PUBLICLY VISIBLE",
+		"type":"bool",
+		"options":[ "true", "false" ],
+		"required":false
+	},
+	"RESPONSIBLE_USER_ID":{
+		"label":"RESPONSIBLE USER ID",
+		"type":"lookup",
+		"options":[],
+		"use_users_mapping":true,
+		"required":false
+	},
+	"EMAIL_ID":{
+		"label":"EMAIL ID",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"PROJECT_ID":{
+		"label":"PROJECT ID",
+		"type":"lookup",
+		"options":[],
+		"required":false
+	},
+	"OWNER_VISIBLE":{
+		"label":"OWNER VISIBLE",
+		"type":"lookup",
+		"options":[],
+		"required":false
+	}
+}

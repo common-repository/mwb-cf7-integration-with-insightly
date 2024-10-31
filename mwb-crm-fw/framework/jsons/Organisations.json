@@ -1,0 +1,142 @@
+{
+	"ORGANISATION_NAME": {
+	   "label":"Organisation Name",
+	   "type":"text",
+	   "options": [],
+	   "required":true
+	},
+	"BACKGROUND": {
+		"label":"BACKGROUND",
+		"type":"text",
+		"options": [],
+		"required":false
+	},
+	"PHONE_FAX": {
+		"label":"PHONE FAX",
+		"type":"text",
+		"options": [],
+		"required":false
+	},
+	"WEBSITE": {
+		"label":"WEBSITE",
+		"type":"url",
+		"options": [],
+		"required":false
+	},
+	"ADDRESS_BILLING_STREET": {
+		"label":"ADDRESS BILLING STREET",
+		"type":"text",
+		"options": [],
+		"required":false
+	},
+	"ADDRESS_BILLING_CITY": {
+		"label":"ADDRESS BILLING CITY",
+		"type":"text",
+		"options": [],
+		"required":false
+	},
+	"ADDRESS_BILLING_STATE": {
+		"label":"ADDRESS BILLING STATE",
+		"type":"text",
+		"options": [],
+		"required":false
+	},
+	"ADDRESS_BILLING_COUNTRY": {
+		"label":"ADDRESS BILLING COUNTRY",
+		"type":"text",
+		"options": [],
+		"required":false
+	},
+	"ADDRESS_BILLING_POSTCODE": {
+		"label":"ADDRESS BILLING POSTCODE",
+		"type":"text",
+		"options": [],
+		"required":false
+	},
+	"ADDRESS_SHIP_STREET": {
+		"label":"ADDRESS SHIP STREET",
+		"type":"text",
+		"options": [],
+		"required":false
+	},
+	"ADDRESS_SHIP_CITY": {
+		"label":"ADDRESS SHIP CITY",
+		"type":"text",
+		"options": [],
+		"required":false
+	},
+	"ADDRESS_SHIP_STATE": {
+		"label":"ADDRESS SHIP STATE",
+		"type":"text",
+		"options": [],
+		"required":false
+	},
+	"ADDRESS_SHIP_POSTCODE": {
+		"label":"ADDRESS SHIP POSTCODE",
+		"type":"url",
+		"options": [],
+		"required":false
+	},
+	"ADDRESS_SHIP_COUNTRY": {
+		"label":"ADDRESS SHIP COUNTRY",
+		"type":"text",
+		"options": [],
+		"required":false
+	},
+	"SOCIAL_LINKEDIN": {
+		"label":"SOCIAL LINKEDIN",
+		"type":"text",
+		"options": [],
+		"required":false
+	},
+	"SOCIAL_FACEBOOK": {
+		"label":"SOCIAL FACEBOOK",
+		"type":"text",
+		"options": [],
+		"required":false
+	},
+	"SOCIAL_TWITTER": {
+		"label":"SOCIAL TWITTER",
+		"type":"text",
+		"options": [],
+		"required":false
+	},
+	"PHONE": {
+		"label":"PHONE",
+		"type":"text",
+		"options": [],
+		"required":false
+	},
+	"CREATED_USER_ID": {
+		"label":"CREATED USER ID",
+		"type":"numeric",
+		"options": [],
+		"use_users_mapping":true,
+		"required":false
+	},
+	"VISIBLE_TEAM_ID": {
+		"label":"VISIBLE TEAM ID",
+		"type":"numeric",
+		"options": [],
+		"required":false
+	},
+	"VISIBLE_TO": {
+		"label":"VISIBLE TO",
+		"type":"fixed",
+		"options": [ "EVERYONE" ],
+		"required":false
+	},
+	"OWNER_USER_ID": {
+		"label":"OWNER USER ID",
+		"type":"lookup",
+		"options": [],
+		"use_users_mapping":true,
+		"required":false
+	},
+	"IMAGE_URL": {
+		"label":"IMAGE URL",
+		"type":"url",
+		"options": [],
+		"required":false
+	}
+}

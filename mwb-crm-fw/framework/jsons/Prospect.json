@@ -1,0 +1,141 @@
+{
+    "PROSPECT_ID": {
+        "label" : "PROSPECT ID",
+        "type":"text",
+        "options":[],
+        "required":false
+    },
+    "SALUTATION": {
+        "label":"SALUTATION",
+        "type":"text",
+        "options":[],
+        "required":false
+    },
+    "FIRST_NAME": {
+        "label":"FIRST NAME",
+        "type":"text",
+        "options":[],
+        "required":false
+    },
+    "LAST_NAME":{
+        "label":"Last Name",
+        "type":"text",
+        "options":[],
+        "required":true
+    },
+    "ORGANISATION_NAME":{
+		"label":"Organisation Name",
+		"type":"text",
+		"options":[],
+		"required":true
+	},
+    "TITLE":{
+		"label":"Title",
+		"type":"text",
+		"options":[],
+		"required":true
+	},
+    "EMAIL_ADDRESS": {
+        "label":"EMAIL ADDRESS",
+        "type":"email",
+        "options":[],
+        "required":false
+    },
+    "PHONE": {
+        "label":"PHONE",
+        "type":"text",
+        "options":[],
+        "required":false
+    },
+    "MOBILE":{
+		"label":"Mobile",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+    "FAX":{
+		"label":"Fax",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+    "WEBSITE": {
+		"label":"WEBSITE",
+		"type":"url",
+		"options": [],
+		"required":false
+	},
+    "ADDRESS_STREET":{
+		"label":"Address Street",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"ADDRESS_CITY":{
+		"label":"Address City",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"ADDRESS_STATE":{
+		"label":"Address State",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+    "ADDRESS_POSTCODE":{
+		"label":"Address Postcode",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"ADDRESS_COUNTRY":{
+		"label":"Address Country",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+    "INDUSTRY":{
+		"label":"Industry",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+    "EMPLOYEE_COUNT":{
+		"label":"Employee Count",
+		"type":"numeric",
+		"options":[],
+		"required":false
+	},
+    "DESCRIPTION":{
+		"label":"Description",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+    "DO_NOT_EMAIL":{
+		"label":"Do Not Email",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+    "DO_NOT_CALL":{
+		"label":"Do Not Call",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+    "OPTED_OUT":{
+		"label":"Opted Out",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+    "OWNER_USER_ID": {
+        "label":"OWNER USER ID",
+        "type":"lookup",
+        "options":[],
+        "use_users_mapping":true,
+        "required":false
+    }
+}

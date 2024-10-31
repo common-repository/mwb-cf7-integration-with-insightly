@@ -1,0 +1,137 @@
+{
+    "OPPORTUNITY_DETAILS": {
+        "label":"OPPORTUNITY DETAILS",
+        "type":"text",
+        "options":[],
+        "required":false
+    },
+	"OPPORTUNITY_NAME":{
+        "label":"OPPORTUNITY NAME",
+        "type":"text",
+        "options":[],
+        "required":true
+    },
+    "OPPORTUNITY_STATE":{
+        "label":"OPPORTUNITY STATE",
+        "type":"text",
+        "options":["WON","LOST","ABANDONED","SUSPENDED"],
+        "required":true
+    },
+    "OPPORTUNITY_STATE_REASON_ID": {
+        "label":"OPPORTUNITY STATE REASON ID",
+        "type":"numeric",
+        "options":[],
+        "required":false
+    },
+    "OPPORTUNITY_VALUE": {
+        "label":"OPPORTUNITY VALUE",
+        "type":"numeric",
+        "options":[],
+        "required":false
+    },
+    "TAGS__TAG_NAME": {
+        "label":"TAG NAME",
+        "type":"text",
+        "options":[],
+        "required":false
+    },
+    "ACTUAL_CLOSE_DATE": {
+        "label":"ACTUAL CLOSE DATE",
+        "type":"date",
+        "options":[],
+        "required":false
+    },
+    "BID_AMOUNT": {
+        "label":"BILL AMOUNT",
+        "type":"numeric",
+        "options":[],
+        "required":false
+    },
+    "BID_CURRENCY": {
+        "label":"BILL CURRENCY",
+        "type":"text",
+        "options":[],
+        "required":false
+    },
+    "BID_DURATION": {
+        "label":"BILL DURATION",
+        "type":"numeric",
+        "options":[],
+        "required":false
+    },
+    "BID_TYPE": {
+        "label":"BILL TYPE",
+        "type":"text",
+        "options":[],
+        "required":false
+    },
+	"CAN_DELETE": {
+		"label":"CAN DELETE",
+		"type":"bool",
+		"options":[ "true", "false" ],
+		"required":false
+	 },
+	 "CAN_EDIT": {
+		"label":"CAN EDIT",
+		"type":"bool",
+		"options":[ "true", "false" ],
+		"required":false
+	 },
+    "OWNER_USER_ID":  {
+        "label" : "OWNER USER ID",
+        "type":"lookup",
+        "options":[],
+        "use_users_mapping":true,
+        "required":false
+    },
+    "PIPELINE_ID":  {
+        "label" : "PIPELINE ID",
+        "type":"lookup",
+        "options":[],
+        "required":false
+    },
+    "PROBABILITY":  {
+        "label" : "PROBABILITY",
+        "type":"numeric",
+        "options":[ 0, 25, 75, 100 ],
+        "required":false
+    },
+    "RESPONSIBLE_USER_ID":  {
+        "label" : "RESPONSIBLE USER ID",
+        "type":"lookup",
+        "options":[],
+        "use_users_mapping":true,
+        "required":false
+    },
+    "VISIBLE_TEAM_ID":  {
+        "label" : "VISIBLE TEAM ID",
+        "type":"numeric",
+        "options":[],
+        "required":false
+    },
+    "VISIBLE_TO": {
+        "label" : "VISIBLE TO",
+        "type":"numeric",
+        "options":[],
+        "required":false
+    },
+    "VISIBLE_USER_IDS": {
+        "label" : "VISIBLE USER IDS",
+        "type":"numeric",
+        "options":[],
+        "use_users_mapping":true,
+        "required":false
+    },
+    "FORECAST_CLOSE_DATE": {
+        "label" : "FORECAST CLOSE DATE",
+        "type":"date",
+        "options":[],
+        "required":false
+    },
+    "IMAGE_URL":  {
+        "label" : "IMAGE URL",
+        "type":"url",
+        "options":[],
+        "required":false
+    }
+}

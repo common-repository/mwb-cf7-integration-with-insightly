@@ -1,0 +1,189 @@
+{
+	"LAST_NAME":{
+	   "label":"Last Name",
+	   "type":"text",
+	   "options":[],
+	   "required":true
+	},
+	"TITLE":{
+		"label":"Title",
+		"type":"text",
+		"options":[],
+		"required":true
+	},
+	"ADDRESS_MAIL_CITY": {
+	   "label":"ADDRESS MAIL CITY",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"ADDRESS_MAIL_COUNTRY": {
+	   "label":"ADDRESS MAIL COUNTRY",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"ADDRESS_MAIL_POSTCODE": {
+	   "label":"ADDRESS MAIL POSTCODE",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"ADDRESS_MAIL_STATE": {
+	   "label":"ADDRESS MAIL STATE",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"ADDRESS_MAIL_STREET": {
+	   "label":"ADDRESS MAIL STREET",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"ADDRESS_OTHER_CITY": {
+	   "label":"ADDRESS OTHER CITY",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"ADDRESS_OTHER_COUNTRY": {
+	   "label":"ADDRESS OTHER COUNTRY",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"ADDRESS_OTHER_POSTCODE": {
+	   "label":"ADDRESS OTHER POSTCODE",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"ADDRESS_OTHER_STATE": {
+	   "label":"ADDRESS OTHER STATE",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"ADDRESS_OTHER_STREET": {
+	   "label":"ADDRESS OTHER STREET",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"ASSISTANT_NAME": {
+	   "label":"ASSISTANT NAME",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"BACKGROUND": {
+	   "label":"BACKGROUND",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"OWNER_USER_ID": {
+	   "label":"OWNER USER ID",
+	   "type":"lookup",
+	   "options":[],
+	   "use_users_mapping":true,
+	   "required":false
+	},
+	"DATE_CREATED_UTC": {
+	   "label":"DATE CREATED UTC",
+	   "type":"date",
+	   "options":[],
+	   "required":false
+	},
+	"DATE_OF_BIRTH": {
+	   "label":"DATE OF BIRTH",
+	   "type":"date",
+	   "options":[],
+	   "required":false
+	},
+	"EMAIL_ADDRESS": {
+	   "label":"EMAIL ADDRESS",
+	   "type":"email",
+	   "options":[],
+	   "required":false
+	},
+	"FIRST_NAME": {
+	   "label":"FIRST NAME",
+	   "type":"text",
+	   "options":[],
+	   "required":true
+	},
+	"IMAGE_URL": {
+	   "label":"IMAGE URL",
+	   "type":"url",
+	   "options":[],
+	   "required":false
+	},
+	"PHONE": {
+	   "label":"PHONE",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"PHONE_ASSISTANT": {
+	   "label":"PHONE ASSISTANT",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"PHONE_FAX": {
+	   "label":"PHONE FAX",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"PHONE_HOME": {
+	   "label":"PHONE HOME",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"PHONE_MOBILE": {
+	   "label":"PHONE MOBILE",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"PHONE_OTHER": {
+	   "label":"PHONE OTHER",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"SALUTATION": {
+	   "label":"SALUTATION",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"SOCIAL_FACEBOOK": {
+	   "label":"SOCIAL FACEBOOK",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"SOCIAL_LINKEDIN": {
+	   "label":"SOCIAL LINKEDIN",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"SOCIAL_TWITTER": {
+	   "label":"SOCIAL TWITTER",
+	   "type":"text",
+	   "options":[],
+	   "required":false
+	},
+	"ORGANISATION_ID": {
+        "label": "ORGANISATION ID",
+        "type": "lookup",
+        "options": [],
+        "required":false
+    }
+}

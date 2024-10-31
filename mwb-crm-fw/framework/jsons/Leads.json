@@ -1,0 +1,173 @@
+{
+	"LAST_NAME":{
+	   "label":"Last Name",
+	   "type":"text",
+	   "options":[],
+	   "required":true
+	},
+	"TITLE":{
+		"label":"Title",
+		"type":"text",
+		"options":[],
+		"required":true
+	},
+	"ORGANISATION_NAME":{
+		"label":"Organisation Name",
+		"type":"text",
+		"options":[],
+		"required":true
+	},
+	"SALUTATION":{
+		"label":"Saluation",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"FIRST_NAME":{
+		"label":"First Name",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"LEAD_SOURCE_ID":{
+		"label":"Lead Source Id",
+		"type":"numeric",
+		"options":[],
+		"required":false
+	},
+	"LEAD_STATUS_ID":{
+		"label":"Lead Status Id",
+		"type":"numeric",
+		"options":[],
+		"required":false
+	},
+	"CONVERTED_CONTACT_ID":{
+		"label":"Coverted Contact Id",
+		"type":"numeric",
+		"options":[],
+		"required":false
+	},
+	"CONVERTED_OPPORTUNITY_ID":{
+		"label":"Coverted Opportunity Id",
+		"type":"numeric",
+		"options":[],
+		"required":false
+	},
+	"CONVERTED_ORGANISATION_ID":{
+		"label":"Coverted Organisation Id",
+		"type":"numeric",
+		"options":[],
+		"required":false
+	},
+	"EMAIL":{
+		"label":"Email",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"EMPLOYEE_COUNT":{
+		"label":"Employee Count",
+		"type":"numeric",
+		"options":[],
+		"required":false
+	},
+	"FAX":{
+		"label":"Fax",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"INDUSTRY":{
+		"label":"Industry",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"LEAD_DESCRIPTION":{
+		"label":"Lead Description",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"LEAD_RATING":{
+		"label":"Lead Rating",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"MOBILE":{
+		"label":"Mobile",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"OWNER_USER_ID":{
+		"label":"Owner User Id",
+		"type":"numeric",
+		"options":[],
+		"use_users_mapping":true,
+		"required":false
+	},
+	"PHONE":{
+		"label":"Phone",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"RESPONSIBLE_USER_ID":{
+		"label":"Rsponsible User Id",
+		"type":"numeric",
+		"use_users_mapping":true,
+		"options":[],
+		"required":false
+	},
+	"WEBSITE":{
+		"label":"Website",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"ADDRESS_STREET":{
+		"label":"Address Street",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"ADDRESS_CITY":{
+		"label":"Address City",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"ADDRESS_STATE":{
+		"label":"Address State",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"ADDRESS_POSTCODE":{
+		"label":"Address Postcode",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"ADDRESS_COUNTRY":{
+		"label":"Address Country",
+		"type":"text",
+		"options":[],
+		"required":false
+	},
+	"CREATED_USER_ID":{
+		"label":"Created User Id",
+		"type":"numeric",
+		"use_users_mapping":true,
+		"options":[],
+		"required":false
+	},
+	"IMAGE_URL":{
+		"label":"Image Url",
+		"type":"text",
+		"options":[],
+		"required":false
+	}
+}
